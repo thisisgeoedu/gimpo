@@ -152,7 +152,7 @@ L.tileLayer(
 
 var bufferLayer = L.layerGroup().addTo(map);
 
-var guLayer;
+var siLayer;
 var safehouseLayer, coolLayer, subwayLayer, oliveLayer;
 var karaokeLayer, studyLayer, dustLayer, airLayer;
 var infantLayer, highFLayer, highMLayer, seniorLayer;
@@ -244,7 +244,7 @@ legend.onAdd = function () {
 };
 
 Promise.all([
-  fetch('gu.geojson').then(r => r.json()),
+  fetch('si.geojson').then(r => r.json()),
   fetch('infant.geojson').then(r => r.json()),
   fetch('high_f.geojson').then(r => r.json()),
   fetch('high_m.geojson').then(r => r.json()),
@@ -260,7 +260,7 @@ Promise.all([
   fetch('greenbelt.geojson').then(r => r.json()),
   fetch('military.geojson').then(r => r.json())
 ])
-.then(([guData, infantData, highFData, highMData, seniorData,
+.then(([siData, infantData, highFData, highMData, seniorData,
         safehouseData, coolData, subwayData, oliveData,
         karaokeData, studyData, dustData, airData,
        greenbeltData, militaryData]) => {
@@ -270,7 +270,7 @@ Promise.all([
   highMLayer = L.geoJSON(highMData, { style: populationStyle });
   seniorLayer = L.geoJSON(seniorData, { style: populationStyle });
 
-  guLayer = L.geoJSON(guData, {
+  siLayer = L.geoJSON(siData, {
     style: { color:"#000", weight:3, dashArray:"6,6", fillOpacity:0 }
   }).addTo(map);
 
@@ -313,7 +313,7 @@ var militaryLayer = L.geoJSON(militaryData, {
   };
 
   var overlays = {
-    "행정구 경계": guLayer,
+    "시 경계": siLayer,
     "개발제한구역": greenbeltLayer,
     "군사보호구역": militaryLayer,
     "단란/유흥주점": karaokeLayer,
