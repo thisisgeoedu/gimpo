@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "olive",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "지점명": "현대프리미엄아울렛김포점", "업종": "화장품/뷰티", "주소": "경기도 김포시 고촌읍 아라육로152번길 100" }, "geometry": { "type": "Point", "coordinates": [ 126.76928, 37.594119 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포고촌점", "업종": "화장품/뷰티", "주소": "경기도 김포시 고촌읍 김포대로 340 101호~103호" }, "geometry": { "type": "Point", "coordinates": [ 126.768482, 37.60155 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포풍무역점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포대로 709 퍼스트블루 1층" }, "geometry": { "type": "Point", "coordinates": [ 126.732822, 37.611749 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포풍무점", "업종": "화장품/뷰티", "주소": "경기도 김포시 풍무로 107 장호프라자 101호 104호" }, "geometry": { "type": "Point", "coordinates": [ 126.719601, 37.60233 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포사우점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포대로 847" }, "geometry": { "type": "Point", "coordinates": [ 126.718872, 37.618649 ] } },
+{ "type": "Feature", "properties": { "지점명": "걸포북변역점", "업종": "화장품/뷰티", "주소": "경기도 김포시 걸포2로 21" }, "geometry": { "type": "Point", "coordinates": [ 126.705886, 37.630985 ] } },
+{ "type": "Feature", "properties": { "지점명": "홈플러스김포점", "업종": "화장품/뷰티", "주소": "경기도 김포시 중봉로 14 홈플러스김포점 1F" }, "geometry": { "type": "Point", "coordinates": [ 126.712613, 37.625732 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포라베니체점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강4로 8 마치에비뉴4차 212~214호" }, "geometry": { "type": "Point", "coordinates": [ 126.674977, 37.639433 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포운양점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강11로 288-24 1동 101호" }, "geometry": { "type": "Point", "coordinates": [ 126.681122, 37.653494 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포한강로점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강1로78번길 6-2" }, "geometry": { "type": "Point", "coordinates": [ 126.666986, 37.647318 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포장기점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강4로 119 승문프라자 1층" }, "geometry": { "type": "Point", "coordinates": [ 126.664426, 37.64336 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포구래점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강9로76번길 21" }, "geometry": { "type": "Point", "coordinates": [ 126.628867, 37.646549 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포구래로데오점", "업종": "화장품/뷰티", "주소": "경기도 김포시 김포한강4로 525" }, "geometry": { "type": "Point", "coordinates": [ 126.626884, 37.643952 ] } },
+{ "type": "Feature", "properties": { "지점명": "김포통진점", "업종": "화장품/뷰티", "주소": "경기도 김포시 통진읍 조강로 46-1 1층" }, "geometry": { "type": "Point", "coordinates": [ 126.59477, 37.68902 ] } }
+]
+}
